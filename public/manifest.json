@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "To-Do List Extension",
+    "version": "1.0",
+    "description": "A minimalistic to-do list with time tracking and tab pinning.",
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
